@@ -122,9 +122,10 @@ li > a {
   margin: 0px;
   padding-left: 200px;
   margin-top: -210px;
+  margin-bottom: -60px;
 }
 #about > h2 {
-  font-size: 30px;
+  font-size: 33px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,27 +140,16 @@ li > a {
   font-size: 18px;
   margin-right: 170px;
   font-family: "Inter", sans-serif;
-  font-weight: 399;
+  font-weight: 400;
   text-align: left;
   letter-spacing: 0.02em;
-}
-#tech-stack {
-  margin-top: 10px;
-  padding-left: 250px;
-}
-
-#tech-stack h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 25px;
-  letter-spacing: 0.03em;
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  max-width: 911px;
+  max-width: 961px;
   position: relative;
   left: 190px;
   margin-bottom: 100px;
@@ -189,10 +179,11 @@ li > a {
   justify-content: center;
   padding-top: 100px;
   font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-weight: 580;
   letter-spacing: 0.02em;
-  padding-right: 650px;
+  padding-right: 770px;
   margin-bottom: 30px;
+  padding-left: 11px;
 }
 #contact {
   max-width: 900px;
