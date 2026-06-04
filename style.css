@@ -114,19 +114,23 @@ main {
   grid-area: socials;
   display: flex;
   gap: 25px;
-  margin-top: 10px;
 }
 
-#socials {
-  grid-area: socials;
-  display: flex;
-  gap: 25px;
-  margin-top: 0;
+#socials a {
+  text-decoration: none; 
+  display: inline-block;
 }
 
-#socials a:hover {
-  color: #000;
-  transform: translateY(-3px);
+
+#socials i {
+  font-size: 34px; 
+  color: #888;
+  transition: all 0.2s ease;
+}
+
+#socials a:hover i { 
+  color: #000; 
+  transform: translateY(-3px); 
 }
 
 #about {
@@ -186,7 +190,7 @@ main {
 
 #contact {
   max-width: 1000px;
-  margin: 80px auto;
+  margin: 0px auto;
   padding: 0 30px;
 }
 
